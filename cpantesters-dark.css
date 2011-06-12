@@ -1,0 +1,131 @@
+/* neverland theme for the cpantesters site http://www.cpantesters.org
+ *
+ * Author:   Magnus Woldrich <m@japh.se>
+ * Modified: 2011-06-12 08:38:43
+ *
+ * colors based on the neverland vim colorscheme [0]
+ *
+ * See also the neverland github theme [1]
+ *
+ * [0]: https://github.com/trapd00r/neverland-vim-theme
+ * [1]: https://github.com/trapd00r/github-neverland
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("cpantesters.org") {
+
+  /* warns if you're not using js */
+  #ie6-warning, .ud {
+    border          : 1px dashed #ff1b00 !important;
+  }
+
+  body {
+    background-color: #121212            !important;
+    font-family     : monospace          !important;
+  }
+
+  .main {
+    background      : none               !important;
+    background-color: #121212            !important;
+  }
+
+  .header-breadcrumbs {
+    background      : none               !important;
+    background-color: #121212            !important;
+  }
+
+  .main-content table th {
+    background-color: #121212            !important;
+    color           : #ffffff            !important;
+    empty-cells     : show               !important;
+    font-size       : 110%               !important;
+    font-weight     : bold               !important;
+    height          : 3.5em              !important;
+    padding         : 0 7px              !important;
+    text-align      : left               !important;
+    border          : 2px solid #202020  !important;
+  }
+
+  .main-content table td {
+    background-color: #121212            !important;
+    border-color    : #161616            !important;
+    border-left     : 2px solid #202020  !important;
+    border-right    : 2px solid #202020  !important;
+    border-style    : solid              !important;
+    border-width    : 2px                !important;
+    color           : #e5e5e5            !important;
+    font-size       : 110%               !important;
+    font-weight     : normal             !important;
+    height          : 2.5em              !important;
+    padding         : 2px 7px            !important;
+    text-align      : left               !important;
+  }
+
+  .main-navigation {
+    background-color: #121212            !important;
+  }
+
+  .main-content p {
+    color: #e5e5e5                        !important;
+  }
+
+  .main-content h2 {
+    clear      : both                     !important;
+    color      : #4183c4                  !important;
+    font-family: monospace                !important;
+    font-size  : 170%                     !important;
+    font-weight: bold                     !important;
+    margin     : 1em 0 0.5em              !important;
+  }
+
+  .nav0 {
+    background-color: #161616             !important;
+  }
+
+  .nav0 ul {
+    background-color: #161616             !important;
+  }
+
+  .main-content h1.pagetitle {
+    border-bottom: 7px solid #202020      !important;
+    color        : #646464                !important;
+    font-family  : "Terminus", monospace  !important;
+  }
+
+  .main-content table td.PASS {
+    background-color: #008700             !important;
+    color           : #121212             !important;
+  }
+
+  .main-content table td.UNKNOWN {
+    background-color: #ff5f00             !important;
+    color           : #121212             !important;
+  }
+
+  .main-content table td.FAIL {
+    background-color: #ff0000             !important;
+    color           : #121212             !important;
+  }
+
+  .main-content table td.NA {
+    background-color: #af875f             !important;
+    color           : #121212             !important;
+  }
+
+  .page-container {
+    border   : 1px solid #202020          !important;
+  }
+
+  .footer {
+    background      : none                !important;
+    background-color: #161616             !important;
+    color           : #404040             !important;
+  }
+
+  .main-navigation h1 {
+    background : none repeat scroll 0 0 #161616 !important;
+    color      : #e5e5e5                        !important;
+    font-family: monospace                      !important;
+  }
+}
